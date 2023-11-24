@@ -1,4 +1,4 @@
-import 'package:prog2_trabalho2/periodic_table.dart';
+import './periodic_table.dart';
 
 import './especific_exception.dart' as my_own_exception;
 import 'package:string_validator/string_validator.dart' as str_validator;
@@ -61,7 +61,6 @@ class Molecule implements Comparable {
     return allValidSymbols;
   }
 
-  // TODO 2 - At moment, if where repated letter, this method return a differente weight compareble to the output.txt
   int _atomicWeight(String formula) {
     List<String> splitedFormula = formula.split('');
 

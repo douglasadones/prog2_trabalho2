@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:prog2_trabalho2/atom.dart';
+import './atom.dart';
 
 import './especific_exception.dart' as my_own_exception;
 import 'dart:io';

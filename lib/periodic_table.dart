@@ -3,7 +3,6 @@ import 'dart:io';
 import './element.dart';
 
 
-// TODO 1 - It's not a singleton :(
 class PeriodicTable {
   static var elements = _namedTeste();
 
