@@ -21,6 +21,10 @@ class Molecule implements Comparable {
     var splitedFormula = _extractingSymbols();
     var allValidSymbols = _allValidSymbols();
 
+    if (splitedFormula.isEmpty) {
+      return false;
+    }
+
     for (var formulaSymbol in splitedFormula) {
       if (!allValidSymbols.contains(formulaSymbol)) {
         return false;
